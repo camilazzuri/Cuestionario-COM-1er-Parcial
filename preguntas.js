@@ -68,7 +68,7 @@ qS("Si se desea convertir a digital una señal de voz de calidad telefónica con
 qS("Si se desea convertir a digital una señal de audio de buena calidad con frecuencias entre 100 y 20.000 Hz, se deberá utilizar una frecuencia de muestreo (en KHz) de al menos:",["40","30","20","65"],0),
 qS("Nyquist: ¿cuál es la tasa mínima de muestreo (muestras/s) para una señal de 2000 Hz de ancho de banda?",["4000","2000","1000","8000"],0),
 qS("Una señal telefónica tiene frecuencia máxima de 4 KHz. ¿Cuál es el período de tiempo entre muestras, en µs?",["125","250","62,5","4"],0,{explanation:"T = 1 / 8000 Hz = 125 µs."}),
-qS("Si se desea convertir a digital una señal de voz de calidad telefónica según el estándar ITU G.711, ¿qué frecuencia de muestreo (en KHz) se utiliza?",["8","4","16","44,1"],0),
+qS("Si se desea convertir a digital una señal de voz de calidad telefónica según el estándar ITU G.711, ¿qué frecuencia de muestreo (en KHz) se utiliza?",["8","4","16","44,1"],0,{explanation:"**Justificación: **El estándar ITU G.711 limita el canal de voz telefónica a una frecuencia máxima de **4 kHz (4.000 Hz)**. Según el **Teorema de Muestreo de Nyquist**: **fs = 2 × fmax = 2 × 4 kHz = 8 kHz**."}),
 qS("Si en el proceso de modulación PCM se desea cuantificar 2000 niveles distintos de la señal, ¿cuántos bits se deberán utilizar para codificar dichas muestras?",["13","11","23","12","22","20","Ninguna es correcta"],1,{explanation:"2¹¹ = 2048 ≥ 2000."}),
 qS("En PCM, ¿cuántos bits se necesitan para cuantificar 256 niveles?",["8","7","9","16"],0,{explanation:"2⁸ = 256."}),
 qS("Indicar cuál de las siguientes afirmaciones es verdadera en el proceso PCM de una señal de audio:",[
