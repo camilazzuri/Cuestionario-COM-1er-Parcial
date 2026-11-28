@@ -192,14 +192,9 @@ qS("El objetivo de un sistema de comunicación [1] es entregar en el destino la 
 qS("La calidad de un sistema analógico se mide por la:",["No corresponde","Direccionalidad","Relación señal a ruido (SNR)","Tasa de error de bits"],2),
 qS("La calidad de un sistema digital se mide por la:",["Relación Señal a Ruido (SNR)","Nitidez de la imagen","Tasa de error de bits (BER)","Nitidez del audio","Direccionalidad"],2),
 qS("En el modelo genérico de un sistema de comunicación, ¿qué bloque introduce el ruido, la atenuación y la distorsión?",["El canal (medio de transmisión)","El transductor de entrada","El codificador de fuente","El destino"],0),
-qS("En el modelo OSI, ¿qué capa se ocupa de la transmisión de bits por el medio (niveles eléctricos, códigos de línea, conectores)?",["Capa 1 · Física","Capa 2 · Enlace de datos","Capa 3 · Red","Capa 4 · Transporte"],0),
-qT("El modelo OSI tiene 7 capas y la capa física es la única que trabaja directamente con el medio de transmisión.",true),
-qS("La finalidad de los transductores de entrada es [1] la información a transmitir en alguna especie de [2] capaz de ser procesada por el sistema.",[
-"[1] convertir · [2] señal eléctrica","[1] modular · [2] dato","[1] multiplexar · [2] modulación","[1] convertir · [2] dato"],0),
-qS("La finalidad de los transductores de salida es [1] la señal procesada por el sistema en algún tipo de [2] capaz de ser interpretada por el receptor.",[
-"[1] convertir · [2] información","[1] modular · [2] dato","[1] multiplexar · [2] señal eléctrica","[1] convertir · [2] modulación"],0),
+qS("La finalidad de los transductores de entrada es [1] la información a transmitir en alguna especie de [2] capaz de ser procesada por el sistema.",["[1] convertir · [2] señal eléctrica","[1] modular · [2] dato","[1] multiplexar · [2] modulación","[1] convertir · [2] dato"],0),
+qS("La finalidad de los transductores de salida es [1] la señal procesada por el sistema en algún tipo de [2] capaz de ser interpretada por el receptor.",["[1] convertir · [2] información","[1] modular · [2] dato","[1] multiplexar · [2] señal eléctrica","[1] convertir · [2] modulación"],0),
 qM("Indique cuáles de los siguientes elementos se consideran transductores de entrada de información de un sistema de comunicaciones:",["Teclado","Pantalla","Micrófono","Parlante","Modem","Cámara","Impresora","Router"],[0,2,5]),
 qM("Indique cuáles de los siguientes elementos se consideran transductores de salida de información de un sistema de comunicaciones:",["Modem","Parlante","Impresora","Pantalla","Micrófono","Fax","Cámara","Teclado"],[1,2,3,5]),
-qS("El UART toma [1] de datos y transmite los [2] individuales de forma secuencial. En el destino, un segundo UART reensambla los [3] en [4] completos.",[
-"[1] Bytes · [2] bits · [3] bits · [4] Bytes","[1] bits · [2] Bytes · [3] Bytes · [4] bits","[1] datos · [2] voltajes · [3] voltajes · [4] datos","[1] Bytes · [2] corrientes · [3] corrientes · [4] datos"],0),
+qS("El UART toma [1] de datos y transmite los [2] individuales de forma secuencial. En el destino, un segundo UART reensambla los [3] en [4] completos.",["[1] Bytes · [2] bits · [3] bits · [4] Bytes","[1] bits · [2] Bytes · [3] Bytes · [4] bits","[1] datos · [2] voltajes · [3] voltajes · [4] datos","[1] Bytes · [2] corrientes · [3] corrientes · [4] datos"],0),
 ]);
